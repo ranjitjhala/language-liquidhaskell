@@ -15,6 +15,6 @@
     "atom": ">=0.196.0 <2.0.0"
   },
   "dependencies": {
-    "language-haskell": "*"
+    "language-haskell": ">= 1.7.9"
   }
 }
