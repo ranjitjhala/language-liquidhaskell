@@ -9,16 +9,9 @@
     "grammar",
     "syntax"
   ],
-  "main": "./lib/init.js",
   "repository": "https://github.com/ranjitjhala/language-liquidhaskell",
   "license": "MIT",
   "engines": {
     "atom": ">=0.196.0 <2.0.0"
-  },
-  "dependencies": {
-    "atom-package-deps": ">= 4.0.1"
-  },
-  "package-deps": [
-    "language-haskell"
-  ]
+  }
 }
