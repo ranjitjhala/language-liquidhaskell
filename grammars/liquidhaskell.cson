@@ -6,19 +6,19 @@
 'name': 'liquidhaskell'
 'patterns': [
   {
-    'include': '#comment'
+    'include': '#liquidcomment'
   }
 ]
 'repository':
-  'comment':
-    'captures':
-      '1':
-        'name': 'comment.line.number-sign.generic-config'
-      '2':
-        'name': 'punctuation.definition.comment.generic-config'
-      '3':
-        'name': 'comment.line.semi-colon.generic-config'
-      '4':
-        'name': 'punctuation.definition.comment.generic-config'
-    'match': '((#).*$\\n?)|((;).*$\\n?)'
-'scopeName': 'text.generic-config'
+  'liquidcomment':
+      {
+        'contentName': 'block.liquidhaskell'
+        'begin': '\\{-@(?!#)'
+        'end': '@-\\}'
+        'patterns': [
+          {
+            'include': 'source.haskell'
+          }
+        ]
+      }
+'scopeName': 'text.liquidhaskell'
