@@ -1,6 +1,6 @@
 'fileTypes': [
-  'liquidhs'
   'hs'
+  'liquidhs'
 ]
 
 'name': 'liquidhaskell'
