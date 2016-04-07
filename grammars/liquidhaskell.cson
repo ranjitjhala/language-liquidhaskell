@@ -22,4 +22,4 @@
   }
 ]
 
-'scopeName': 'text.liquidhaskell'
+'scopeName': 'source.haskell'
